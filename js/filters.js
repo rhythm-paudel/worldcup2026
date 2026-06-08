@@ -1,4 +1,4 @@
-import { formatStage } from './utils.js';
+import { formatStage, getMatchDateTimeInfo, getTimezoneMode } from './utils.js';
 
 export function createFilterState() {
   return {
@@ -30,7 +30,9 @@ export function filterMatches(matches, filters, indexes) {
     if (filters.group && m.group !== filters.group) return false;
     if (filters.stage && m.stage !== filters.stage) return false;
     if (filters.status && m.status !== filters.status) return false;
-    if (filters.date && m.date !== filters.date) return false;
+    const tzMode = getTimezoneMode();
+    const dtInfo = getMatchDateTimeInfo(m, tzMode);
+    if (filters.date && dtInfo.isoDate !== filters.date) return false;
 
     if (q) {
       const venue = venuesById.get(m.venueId);

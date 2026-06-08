@@ -1,4 +1,4 @@
-import { escapeHtml, formatDate } from './utils.js';
+import { escapeHtml, formatDate, getMatchDateTimeInfo, getTimezoneMode } from './utils.js';
 import { BRACKET_LAYOUT, isPlaceholderTeam, matchByNum } from './knockout.js';
 
 const COL_GAPS = {
@@ -56,7 +56,7 @@ function bracketNode(m, indexes, side) {
         ${teamRow(m, 'home', indexes)}
         ${teamRow(m, 'away', indexes)}
       </div>
-      <div class="bt-node-foot">${formatDate(m.date)}</div>
+      <div class="bt-node-foot">${getMatchDateTimeInfo(m, getTimezoneMode()).dateLabel}</div>
     </div>`;
 }
 

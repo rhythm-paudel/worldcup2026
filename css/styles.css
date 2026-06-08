@@ -323,6 +323,52 @@ code {
   color: var(--text-muted);
 }
 
+.toolbar-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.btn-timezone {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 0.875rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--bg-elevated);
+  color: var(--text-muted);
+  font-size: 0.8125rem;
+  font-weight: 600;
+  transition: all 0.15s ease;
+  user-select: none;
+}
+
+.btn-timezone:hover {
+  color: var(--text);
+  border-color: var(--accent-bright);
+  background: var(--bg);
+  box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.1);
+}
+
+.btn-timezone .tz-icon {
+  width: 14px;
+  height: 14px;
+  stroke: currentColor;
+  transition: stroke 0.15s ease;
+}
+
+.btn-timezone.is-local {
+  background: var(--gold-soft);
+  border-color: rgba(201, 162, 39, 0.35);
+  color: #8a7018;
+}
+
+.btn-timezone.is-local:hover {
+  background: #ede0b8;
+  box-shadow: 0 0 0 3px rgba(201, 162, 39, 0.15);
+}
+
 .btn-icon {
   display: none;
   padding: 0.5rem;
@@ -1611,6 +1657,11 @@ code {
 
   .filters-backdrop.open {
     display: block;
+  }
+
+  .btn-timezone {
+    min-height: 44px;
+    padding: 0.5rem 1rem;
   }
 
   .btn-icon {

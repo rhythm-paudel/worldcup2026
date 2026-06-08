@@ -5,6 +5,8 @@ import {
   formatStage,
   isRealTeam,
   statusLabel,
+  getMatchDateTimeInfo,
+  getTimezoneMode,
 } from './utils.js';
 import { computeStandings } from './standings.js';
 
@@ -23,12 +25,15 @@ function matchCard(m, indexes) {
   const venue = venuesById.get(m.venueId);
   const live = m.status === 'live';
   const finished = m.status === 'finished';
+  
+  const tzMode = getTimezoneMode();
+  const dtInfo = getMatchDateTimeInfo(m, tzMode);
 
   return `
     <article class="match-card ${live ? 'is-live' : ''} ${finished ? 'is-finished' : ''}" data-match-id="${m.id}">
       <div class="match-meta">
-        <time datetime="${m.date}">${formatDate(m.date)}</time>
-        <span class="match-time">${escapeHtml(m.time)} ${escapeHtml(m.timezone)}</span>
+        <time datetime="${dtInfo.isoDate}">${dtInfo.dateLabel}</time>
+        <span class="match-time">${escapeHtml(dtInfo.timeLabel)} ${escapeHtml(dtInfo.timezoneLabel)}</span>
         ${m.group ? `<span class="badge">Group ${m.group}</span>` : `<span class="badge muted">${escapeHtml(m.round)}</span>`}
         ${statusLabel(m.status) ? `<span class="status-pill ${m.status}">${statusLabel(m.status)}</span>` : ''}
       </div>
@@ -53,11 +58,13 @@ function matchCard(m, indexes) {
   `;
 }
 
-function groupMatchesByDate(matches) {
+function groupMatchesByDate(matches, tzMode) {
   const groups = new Map();
   matches.forEach((m) => {
-    if (!groups.has(m.date)) groups.set(m.date, []);
-    groups.get(m.date).push(m);
+    const dtInfo = getMatchDateTimeInfo(m, tzMode);
+    const key = dtInfo.groupDateKey;
+    if (!groups.has(key)) groups.set(key, []);
+    groups.get(key).push({ match: m, dtInfo });
   });
   return groups;
 }
@@ -67,13 +74,17 @@ export function renderMatches(matches, indexes) {
     return `<div class="empty-state"><p>No matches match your filters.</p></div>`;
   }
 
-  const byDate = groupMatchesByDate(matches);
+  const tzMode = getTimezoneMode();
+  const byDate = groupMatchesByDate(matches, tzMode);
+  const sortedKeys = Array.from(byDate.keys()).sort();
   let html = '';
 
-  for (const [date, dayMatches] of byDate) {
+  for (const dateKey of sortedKeys) {
+    const dayMatches = byDate.get(dateKey);
+    const firstMatchDtInfo = dayMatches[0].dtInfo;
     html += `<section class="day-group">
-      <h3 class="day-heading">${formatDate(date)}</h3>
-      <div class="match-list">${dayMatches.map((m) => matchCard(m, indexes)).join('')}</div>
+      <h3 class="day-heading">${firstMatchDtInfo.dateLabel}</h3>
+      <div class="match-list">${dayMatches.map(({ match }) => matchCard(match, indexes)).join('')}</div>
     </section>`;
   }
 

@@ -1,4 +1,5 @@
 import { loadDatabase, buildIndexes } from './data.js';
+import { getTimezoneMode } from './utils.js';
 import {
   createFilterState,
   filterMatches,
@@ -49,9 +50,25 @@ async function init() {
     state.indexes = buildIndexes(state.db);
     populateFilterOptions(state.db, els);
     bindEvents();
+    updateTimezoneButtonUI();
     render();
   } catch (err) {
     els.viewRoot.innerHTML = `<div class="empty-state"><p>Could not load data. ${err.message}</p></div>`;
+  }
+}
+
+function updateTimezoneButtonUI() {
+  const btnTz = document.getElementById('toggle-timezone');
+  if (!btnTz) return;
+  const current = getTimezoneMode();
+  const textSpan = btnTz.querySelector('.timezone-text');
+  
+  if (current === 'local') {
+    btnTz.classList.add('is-local');
+    if (textSpan) textSpan.textContent = 'My Time';
+  } else {
+    btnTz.classList.remove('is-local');
+    if (textSpan) textSpan.textContent = 'Venue Time';
   }
 }
 
@@ -101,6 +118,17 @@ function bindEvents() {
   document.getElementById('close-detail').addEventListener('click', closeDetail);
   document.getElementById('toggle-filters').addEventListener('click', toggleFilters);
   document.getElementById('filters-backdrop').addEventListener('click', closeFilters);
+
+  const btnTz = document.getElementById('toggle-timezone');
+  if (btnTz) {
+    btnTz.addEventListener('click', () => {
+      const current = getTimezoneMode();
+      const next = current === 'venue' ? 'local' : 'venue';
+      localStorage.setItem('wc2026-timezone-preference', next);
+      updateTimezoneButtonUI();
+      render();
+    });
+  }
 
   els.filterChips.addEventListener('click', (e) => {
     const btn = e.target.closest('[data-chip]');

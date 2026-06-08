@@ -103,9 +103,15 @@
       <main class="content" id="main-content">
         <div class="content-toolbar">
           <p class="result-count" id="result-count">Loading…</p>
-          <button type="button" class="btn-icon" id="toggle-filters" aria-label="Toggle filters">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M7 12h10M10 18h4"/></svg>
-          </button>
+          <div class="toolbar-actions">
+            <button type="button" class="btn-timezone" id="toggle-timezone" aria-label="Toggle timezone">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="tz-icon"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+              <span class="timezone-text">Venue Time</span>
+            </button>
+            <button type="button" class="btn-icon" id="toggle-filters" aria-label="Toggle filters">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M7 12h10M10 18h4"/></svg>
+            </button>
+          </div>
         </div>
         <div id="view-root"></div>
       </main>
