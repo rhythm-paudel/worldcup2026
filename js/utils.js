@@ -58,7 +58,7 @@ export function isRealTeam(teamId, teamsById) {
 }
 
 export function getTimezoneMode() {
-  return localStorage.getItem('wc2026-timezone-preference') || 'venue';
+  return localStorage.getItem('wc2026-timezone-preference') || 'local';
 }
 
 export function parseMatchDateTime(dateStr, timeStr, timezoneStr) {
