@@ -1718,7 +1718,7 @@
       "venueId": "mexico-city",
       "hostCountry": "Mexico",
       "score": {
-        "home": null,
+        "home": 1,
         "away": null
       },
       "status": "live"
