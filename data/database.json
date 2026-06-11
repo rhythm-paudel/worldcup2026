@@ -1718,10 +1718,10 @@
       "venueId": "mexico-city",
       "hostCountry": "Mexico",
       "score": {
-        "home": 1,
+        "home": 2,
         "away": null
       },
-      "status": "live"
+      "status": "finished"
     },
     {
       "id": "match-002",
