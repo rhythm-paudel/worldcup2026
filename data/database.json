@@ -1719,7 +1719,7 @@
       "hostCountry": "Mexico",
       "score": {
         "home": 2,
-        "away": null
+        "away": 0
       },
       "status": "finished"
     },
