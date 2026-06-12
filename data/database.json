@@ -1760,10 +1760,10 @@
       "venueId": "toronto",
       "hostCountry": "Canada",
       "score": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
       },
-      "status": "scheduled"
+      "status": "live"
     },
     {
       "id": "match-019",
