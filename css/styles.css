@@ -411,6 +411,66 @@ code {
   gap: 0.625rem;
 }
 
+.previous-matches {
+  margin-bottom: 1.5rem;
+}
+
+.previous-matches summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.8rem 1rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--bg-elevated);
+  color: var(--text);
+  font-size: 0.875rem;
+  font-weight: 700;
+  box-shadow: var(--shadow);
+  list-style: none;
+  cursor: pointer;
+}
+
+.previous-matches summary::-webkit-details-marker {
+  display: none;
+}
+
+.previous-matches summary::after {
+  content: '+';
+  flex: 0 0 auto;
+  width: 1.35rem;
+  height: 1.35rem;
+  border-radius: 999px;
+  background: var(--bg);
+  color: var(--text-muted);
+  display: grid;
+  place-items: center;
+  font-family: var(--mono);
+  font-weight: 700;
+}
+
+.previous-matches[open] summary::after {
+  content: '-';
+}
+
+.previous-matches summary:hover {
+  border-color: var(--accent-bright);
+}
+
+.previous-matches summary span {
+  margin-left: auto;
+  padding: 0.12rem 0.45rem;
+  border-radius: 999px;
+  background: var(--gold-soft);
+  color: #8a7018;
+  font-size: 0.7rem;
+}
+
+.previous-matches-body {
+  margin-top: 1rem;
+}
+
 .match-card {
   background: var(--bg-elevated);
   border: 1px solid var(--border-soft);
@@ -1760,6 +1820,11 @@ code {
 
   .match-card {
     padding: 0.875rem;
+  }
+
+  .previous-matches summary {
+    padding: 0.75rem 0.875rem;
+    font-size: 0.8125rem;
   }
 
   .team-grid {

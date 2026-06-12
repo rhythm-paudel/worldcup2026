@@ -247,7 +247,7 @@ function render() {
   }
 
   const filtered = filterMatches(db.matches, filters, indexes);
-  els.viewRoot.innerHTML = renderMatches(filtered, indexes);
+  els.viewRoot.innerHTML = renderMatches(filtered, indexes, filters);
   els.resultCount.textContent = `${filtered.length} of ${db.matches.length} matches`;
 }
 

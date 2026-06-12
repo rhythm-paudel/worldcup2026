@@ -4,6 +4,7 @@ import {
   formatScore,
   formatStage,
   isRealTeam,
+  parseMatchDateTime,
   statusLabel,
   getMatchDateTimeInfo,
   getTimezoneMode,
@@ -69,14 +70,18 @@ function groupMatchesByDate(matches, tzMode) {
   return groups;
 }
 
-export function renderMatches(matches, indexes) {
-  if (!matches.length) {
-    return `<div class="empty-state"><p>No matches match your filters.</p></div>`;
-  }
+function getTodayKey() {
+  const today = new Date();
+  const year = today.getFullYear();
+  const month = String(today.getMonth() + 1).padStart(2, '0');
+  const day = String(today.getDate()).padStart(2, '0');
+  return `${year}-${month}-${day}`;
+}
 
-  const tzMode = getTimezoneMode();
+function renderMatchGroups(matches, indexes, tzMode, sortDirection = 'asc') {
   const byDate = groupMatchesByDate(matches, tzMode);
   const sortedKeys = Array.from(byDate.keys()).sort();
+  if (sortDirection === 'desc') sortedKeys.reverse();
   let html = '';
 
   for (const dateKey of sortedKeys) {
@@ -89,6 +94,46 @@ export function renderMatches(matches, indexes) {
   }
 
   return html;
+}
+
+export function renderMatches(matches, indexes, filters = {}) {
+  if (!matches.length) {
+    return `<div class="empty-state"><p>No matches match your filters.</p></div>`;
+  }
+
+  const tzMode = getTimezoneMode();
+  const todayKey = getTodayKey();
+  const canCollapsePrevious = !filters.status && !filters.date;
+  const currentMatches = [];
+  const previousFinishedMatches = [];
+
+  matches.forEach((m) => {
+    const dtInfo = getMatchDateTimeInfo(m, tzMode);
+    if (canCollapsePrevious && m.status === 'finished' && dtInfo.isoDate < todayKey) {
+      previousFinishedMatches.push(m);
+    } else {
+      currentMatches.push(m);
+    }
+  });
+
+  if (previousFinishedMatches.length) {
+    previousFinishedMatches.sort(
+      (a, b) => parseMatchDateTime(b.date, b.time, b.timezone) - parseMatchDateTime(a.date, a.time, a.timezone)
+    );
+  }
+
+  let html = previousFinishedMatches.length
+    ? `<details class="previous-matches">
+      <summary>Previous completed matches <span>${previousFinishedMatches.length}</span></summary>
+      <div class="previous-matches-body">${renderMatchGroups(previousFinishedMatches, indexes, tzMode, 'desc')}</div>
+    </details>`
+    : '';
+
+  html += currentMatches.length
+    ? renderMatchGroups(currentMatches, indexes, tzMode)
+    : '';
+
+  return html || `<div class="empty-state"><p>No matches match your filters.</p></div>`;
 }
 
 export function renderTeams(db, indexes) {
