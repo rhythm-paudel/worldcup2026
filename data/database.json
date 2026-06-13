@@ -1802,10 +1802,10 @@
       "venueId": "san-francisco-bay-area-santa-clara",
       "hostCountry": "USA",
       "score": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 1
       },
-      "status": "scheduled"
+      "status": "finished"
     },
     {
       "id": "match-013",
@@ -1823,10 +1823,10 @@
       "venueId": "new-york-new-jersey-east-rutherford",
       "hostCountry": "USA",
       "score": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 1
       },
-      "status": "scheduled"
+      "status": "live"
     },
     {
       "id": "match-014",
