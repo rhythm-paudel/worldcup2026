@@ -1847,7 +1847,7 @@
         "home": 0,
         "away": 1
       },
-      "status": "live"
+      "status": "finished"
     },
     {
       "id": "match-020",
@@ -1865,10 +1865,10 @@
       "venueId": "vancouver",
       "hostCountry": "Canada",
       "score": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 0
       },
-      "status": "scheduled"
+      "status": "finished"
     },
     {
       "id": "match-025",
