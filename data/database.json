@@ -1845,7 +1845,7 @@
       "hostCountry": "USA",
       "score": {
         "home": null,
-        "away": null
+        "away": 1
       },
       "status": "scheduled"
     },
