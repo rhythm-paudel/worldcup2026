@@ -1844,7 +1844,7 @@
       "venueId": "boston-foxborough",
       "hostCountry": "USA",
       "score": {
-        "home": null,
+        "home": 0,
         "away": 1
       },
       "status": "live"
