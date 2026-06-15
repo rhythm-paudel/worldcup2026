@@ -2,7 +2,7 @@
   "meta": {
     "name": "FIFA World Cup 2026",
     "version": 1,
-    "updated": "2026-06-14",
+    "updated": "2026-06-15",
     "source": "openfootball/worldcup.json",
     "totalMatches": 104,
     "totalTeams": 112
@@ -1928,10 +1928,10 @@
       "venueId": "philadelphia",
       "hostCountry": "USA",
       "score": {
-        "home": 0,
+        "home": 1,
         "away": 0
       },
-      "status": "live"
+      "status": "finished"
     },
     {
       "id": "match-032",
@@ -1949,10 +1949,10 @@
       "venueId": "monterrey-guadalupe",
       "hostCountry": "Mexico",
       "score": {
-        "home": null,
-        "away": null
+        "home": 5,
+        "away": 1
       },
-      "status": "scheduled"
+      "status": "finished"
     },
     {
       "id": "match-037",
