@@ -1970,7 +1970,7 @@
       "venueId": "seattle",
       "hostCountry": "USA",
       "score": {
-        "home": null,
+        "home": 0,
         "away": 1
       },
       "status": "live"
@@ -1991,10 +1991,10 @@
       "venueId": "atlanta",
       "hostCountry": "USA",
       "score": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
-      "status": "scheduled"
+      "status": "finished"
     },
     {
       "id": "match-038",
