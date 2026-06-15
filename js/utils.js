@@ -29,6 +29,14 @@ export function formatScore(match) {
   return `${home} – ${away}`;
 }
 
+function formatTime12(timeStr) {
+  const [hourStr, minute] = timeStr.split(':');
+  const hour = Number(hourStr);
+  const suffix = hour >= 12 ? 'PM' : 'AM';
+  const hour12 = hour % 12 || 12;
+  return `${hour12}:${minute} ${suffix}`;
+}
+
 export function statusLabel(status) {
   if (status === 'live') return 'Live';
   if (status === 'finished') return 'FT';
@@ -100,9 +108,9 @@ export function getMatchDateTimeInfo(m, timezoneMode) {
     });
     
     const localTimeStr = utcDate.toLocaleTimeString('en-US', {
-      hour: '2-digit',
+      hour: 'numeric',
       minute: '2-digit',
-      hour12: false,
+      hour12: true,
     });
     
     const localTz = getLocalTimezoneName(utcDate);
@@ -124,7 +132,7 @@ export function getMatchDateTimeInfo(m, timezoneMode) {
   const venueDateLabel = formatDate(m.date);
   return {
     dateLabel: venueDateLabel,
-    timeLabel: m.time,
+    timeLabel: formatTime12(m.time),
     timezoneLabel: m.timezone,
     groupDateKey: m.date,
     isoDate: m.date,

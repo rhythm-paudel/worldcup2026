@@ -78,14 +78,15 @@ function getTodayKey() {
   return `${year}-${month}-${day}`;
 }
 
-function renderMatchGroups(matches, indexes, tzMode, sortDirection = 'asc') {
+function renderMatchGroups(matches, indexes, tzMode) {
   const byDate = groupMatchesByDate(matches, tzMode);
   const sortedKeys = Array.from(byDate.keys()).sort();
-  if (sortDirection === 'desc') sortedKeys.reverse();
   let html = '';
 
   for (const dateKey of sortedKeys) {
-    const dayMatches = byDate.get(dateKey);
+    const dayMatches = byDate.get(dateKey).sort(
+      (a, b) => parseMatchDateTime(a.match.date, a.match.time, a.match.timezone) - parseMatchDateTime(b.match.date, b.match.time, b.match.timezone)
+    );
     const firstMatchDtInfo = dayMatches[0].dtInfo;
     html += `<section class="day-group">
       <h3 class="day-heading">${firstMatchDtInfo.dateLabel}</h3>
@@ -118,14 +119,14 @@ export function renderMatches(matches, indexes, filters = {}) {
 
   if (previousFinishedMatches.length) {
     previousFinishedMatches.sort(
-      (a, b) => parseMatchDateTime(b.date, b.time, b.timezone) - parseMatchDateTime(a.date, a.time, a.timezone)
+      (a, b) => parseMatchDateTime(a.date, a.time, a.timezone) - parseMatchDateTime(b.date, b.time, b.timezone)
     );
   }
 
   let html = previousFinishedMatches.length
     ? `<details class="previous-matches">
       <summary>Previous completed matches <span>${previousFinishedMatches.length}</span></summary>
-      <div class="previous-matches-body">${renderMatchGroups(previousFinishedMatches, indexes, tzMode, 'desc')}</div>
+      <div class="previous-matches-body">${renderMatchGroups(previousFinishedMatches, indexes, tzMode)}</div>
     </details>`
     : '';
 
