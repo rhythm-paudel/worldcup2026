@@ -2,7 +2,7 @@
   "meta": {
     "name": "FIFA World Cup 2026",
     "version": 1,
-    "updated": "2026-06-15",
+    "updated": "2026-06-16",
     "source": "openfootball/worldcup.json",
     "totalMatches": 104,
     "totalTeams": 112
@@ -2034,9 +2034,9 @@
       "hostCountry": "USA",
       "score": {
         "home": 1,
-        "away": 0
+        "away": 1
       },
-      "status": "live"
+      "status": "finished"
     },
     {
       "id": "match-049",
