@@ -2,7 +2,7 @@
   "meta": {
     "name": "FIFA World Cup 2026",
     "version": 1,
-    "updated": "2026-06-16",
+    "updated": "2026-06-17",
     "source": "openfootball/worldcup.json",
     "totalMatches": 104,
     "totalTeams": 112
@@ -2076,9 +2076,9 @@
       "hostCountry": "USA",
       "score": {
         "home": 1,
-        "away": 2
+        "away": 4
       },
-      "status": "live"
+      "status": "finished"
     },
     {
       "id": "match-055",
@@ -2096,10 +2096,10 @@
       "venueId": "kansas-city",
       "hostCountry": "USA",
       "score": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
-      "status": "scheduled"
+      "status": "live"
     },
     {
       "id": "match-056",
