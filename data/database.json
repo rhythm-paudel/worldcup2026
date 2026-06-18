@@ -2264,10 +2264,10 @@
       "venueId": "vancouver",
       "hostCountry": "Canada",
       "score": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 0
       },
-      "status": "scheduled"
+      "status": "live"
     },
     {
       "id": "match-004",
