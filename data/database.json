@@ -2201,10 +2201,10 @@
       "venueId": "mexico-city",
       "hostCountry": "Mexico",
       "score": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 3
       },
-      "status": "scheduled"
+      "status": "finished"
     },
     {
       "id": "match-003",
