@@ -2285,10 +2285,10 @@
       "venueId": "guadalajara-zapopan",
       "hostCountry": "Mexico",
       "score": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
       },
-      "status": "scheduled"
+      "status": "finished"
     },
     {
       "id": "match-021",
