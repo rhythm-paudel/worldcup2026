@@ -2,7 +2,7 @@
   "meta": {
     "name": "FIFA World Cup 2026",
     "version": 1,
-    "updated": "2026-06-18",
+    "updated": "2026-06-19",
     "source": "openfootball/worldcup.json",
     "totalMatches": 104,
     "totalTeams": 112
@@ -2264,10 +2264,10 @@
       "venueId": "vancouver",
       "hostCountry": "Canada",
       "score": {
-        "home": 4,
+        "home": 6,
         "away": 0
       },
-      "status": "live"
+      "status": "finished"
     },
     {
       "id": "match-004",
