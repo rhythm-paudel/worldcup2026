@@ -2,7 +2,7 @@
   "meta": {
     "name": "FIFA World Cup 2026",
     "version": 1,
-    "updated": "2026-06-19",
+    "updated": "2026-06-20",
     "source": "openfootball/worldcup.json",
     "totalMatches": 104,
     "totalTeams": 112
@@ -2330,7 +2330,7 @@
         "home": 0,
         "away": 1
       },
-      "status": "live"
+      "status": "finished"
     },
     {
       "id": "match-022",
@@ -2348,10 +2348,10 @@
       "venueId": "san-francisco-bay-area-santa-clara",
       "hostCountry": "USA",
       "score": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 1
       },
-      "status": "scheduled"
+      "status": "finished"
     },
     {
       "id": "match-016",
@@ -2369,10 +2369,10 @@
       "venueId": "philadelphia",
       "hostCountry": "USA",
       "score": {
-        "home": null,
-        "away": null
+        "home": 3,
+        "away": 0
       },
-      "status": "scheduled"
+      "status": "finished"
     },
     {
       "id": "match-033",
