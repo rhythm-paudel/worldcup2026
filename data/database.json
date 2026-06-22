@@ -2517,7 +2517,7 @@
       "hostCountry": "Canada",
       "score": {
         "home": 1,
-        "away": 0
+        "away": 3
       },
       "status": "finished"
     },
@@ -2558,10 +2558,10 @@
       "venueId": "dallas-arlington",
       "hostCountry": "USA",
       "score": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 0
       },
-      "status": "scheduled"
+      "status": "finished"
     },
     {
       "id": "match-051",
@@ -2579,10 +2579,10 @@
       "venueId": "philadelphia",
       "hostCountry": "USA",
       "score": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
       },
-      "status": "scheduled"
+      "status": "finished"
     },
     {
       "id": "match-052",
