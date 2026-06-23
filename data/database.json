@@ -2,7 +2,7 @@
   "meta": {
     "name": "FIFA World Cup 2026",
     "version": 1,
-    "updated": "2026-06-22",
+    "updated": "2026-06-23",
     "source": "openfootball/worldcup.json",
     "totalMatches": 104,
     "totalTeams": 112
@@ -2579,10 +2579,10 @@
       "venueId": "philadelphia",
       "hostCountry": "USA",
       "score": {
-        "home": 1,
+        "home": 2,
         "away": 0
       },
-      "status": "finished"
+      "status": "live"
     },
     {
       "id": "match-052",
