@@ -2600,7 +2600,7 @@
       "venueId": "new-york-new-jersey-east-rutherford",
       "hostCountry": "USA",
       "score": {
-        "home": 0,
+        "home": 1,
         "away": 0
       },
       "status": "live"
