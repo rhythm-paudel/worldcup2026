@@ -2,7 +2,7 @@
   "meta": {
     "name": "FIFA World Cup 2026",
     "version": 1,
-    "updated": "2026-06-23",
+    "updated": "2026-06-24",
     "source": "openfootball/worldcup.json",
     "totalMatches": 104,
     "totalTeams": 112
@@ -2600,10 +2600,10 @@
       "venueId": "new-york-new-jersey-east-rutherford",
       "hostCountry": "USA",
       "score": {
-        "home": 1,
-        "away": 0
+        "home": 3,
+        "away": 2
       },
-      "status": "live"
+      "status": "finished"
     },
     {
       "id": "match-058",
@@ -2621,10 +2621,10 @@
       "venueId": "san-francisco-bay-area-santa-clara",
       "hostCountry": "USA",
       "score": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 2
       },
-      "status": "scheduled"
+      "status": "finished"
     },
     {
       "id": "match-063",
@@ -2642,10 +2642,10 @@
       "venueId": "houston",
       "hostCountry": "USA",
       "score": {
-        "home": null,
-        "away": null
+        "home": 5,
+        "away": 0
       },
-      "status": "scheduled"
+      "status": "finished"
     },
     {
       "id": "match-069",
@@ -2663,10 +2663,10 @@
       "venueId": "boston-foxborough",
       "hostCountry": "USA",
       "score": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
-      "status": "scheduled"
+      "status": "finished"
     },
     {
       "id": "match-070",
@@ -2684,10 +2684,10 @@
       "venueId": "toronto",
       "hostCountry": "Canada",
       "score": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 1
       },
-      "status": "scheduled"
+      "status": "finished"
     },
     {
       "id": "match-064",
@@ -2705,10 +2705,10 @@
       "venueId": "guadalajara-zapopan",
       "hostCountry": "Mexico",
       "score": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
       },
-      "status": "scheduled"
+      "status": "finished"
     },
     {
       "id": "match-011",
