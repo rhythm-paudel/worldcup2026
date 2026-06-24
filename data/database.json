@@ -2729,7 +2729,7 @@
         "home": 2,
         "away": 1
       },
-      "status": "live"
+      "status": "finished"
     },
     {
       "id": "match-012",
@@ -2747,10 +2747,10 @@
       "venueId": "seattle",
       "hostCountry": "USA",
       "score": {
-        "home": 2,
+        "home": 3,
         "away": 1
       },
-      "status": "live"
+      "status": "finished"
     },
     {
       "id": "match-017",
