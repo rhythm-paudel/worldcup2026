@@ -2813,7 +2813,7 @@
         "home": 0,
         "away": 2
       },
-      "status": "live"
+      "status": "finished"
     },
     {
       "id": "match-006",
@@ -2834,7 +2834,7 @@
         "home": 1,
         "away": 0
       },
-      "status": "live"
+      "status": "finished"
     },
     {
       "id": "match-029",
