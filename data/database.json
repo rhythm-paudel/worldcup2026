@@ -2,7 +2,7 @@
   "meta": {
     "name": "FIFA World Cup 2026",
     "version": 1,
-    "updated": "2026-06-24",
+    "updated": "2026-06-25",
     "source": "openfootball/worldcup.json",
     "totalMatches": 104,
     "totalTeams": 112
@@ -2768,10 +2768,10 @@
       "venueId": "miami-miami-gardens",
       "hostCountry": "USA",
       "score": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 3
       },
-      "status": "scheduled"
+      "status": "finished"
     },
     {
       "id": "match-018",
@@ -2789,10 +2789,10 @@
       "venueId": "atlanta",
       "hostCountry": "USA",
       "score": {
-        "home": null,
-        "away": null
+        "home": 4,
+        "away": 2
       },
-      "status": "scheduled"
+      "status": "finished"
     },
     {
       "id": "match-005",
@@ -2810,10 +2810,10 @@
       "venueId": "mexico-city",
       "hostCountry": "Mexico",
       "score": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
-      "status": "scheduled"
+      "status": "live"
     },
     {
       "id": "match-006",
@@ -2831,10 +2831,10 @@
       "venueId": "monterrey-guadalupe",
       "hostCountry": "Mexico",
       "score": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
-      "status": "scheduled"
+      "status": "live"
     },
     {
       "id": "match-029",
