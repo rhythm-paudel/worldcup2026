@@ -2831,7 +2831,7 @@
       "venueId": "monterrey-guadalupe",
       "hostCountry": "Mexico",
       "score": {
-        "home": 0,
+        "home": 1,
         "away": 0
       },
       "status": "live"
