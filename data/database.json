@@ -2936,10 +2936,10 @@
       "venueId": "los-angeles-inglewood",
       "hostCountry": "USA",
       "score": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 1
       },
-      "status": "scheduled"
+      "status": "live"
     },
     {
       "id": "match-024",
