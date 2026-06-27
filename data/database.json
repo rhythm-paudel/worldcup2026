@@ -3062,10 +3062,10 @@
       "venueId": "seattle",
       "hostCountry": "USA",
       "score": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 1
       },
-      "status": "scheduled"
+      "status": "finished"
     },
     {
       "id": "match-042",
@@ -3083,10 +3083,10 @@
       "venueId": "vancouver",
       "hostCountry": "Canada",
       "score": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 5
       },
-      "status": "scheduled"
+      "status": "finished"
     },
     {
       "id": "match-071",
