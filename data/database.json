@@ -2,7 +2,7 @@
   "meta": {
     "name": "FIFA World Cup 2026",
     "version": 1,
-    "updated": "2026-06-26",
+    "updated": "2026-06-27",
     "source": "openfootball/worldcup.json",
     "totalMatches": 104,
     "totalTeams": 112
@@ -2978,10 +2978,10 @@
       "venueId": "boston-foxborough",
       "hostCountry": "USA",
       "score": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 4
       },
-      "status": "scheduled"
+      "status": "finished"
     },
     {
       "id": "match-054",
@@ -2999,10 +2999,10 @@
       "venueId": "toronto",
       "hostCountry": "Canada",
       "score": {
-        "home": null,
-        "away": null
+        "home": 5,
+        "away": 0
       },
-      "status": "scheduled"
+      "status": "finished"
     },
     {
       "id": "match-048",
@@ -3020,10 +3020,10 @@
       "venueId": "guadalajara-zapopan",
       "hostCountry": "Mexico",
       "score": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 1
       },
-      "status": "scheduled"
+      "status": "finished"
     },
     {
       "id": "match-047",
@@ -3041,10 +3041,10 @@
       "venueId": "houston",
       "hostCountry": "USA",
       "score": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
-      "status": "scheduled"
+      "status": "finished"
     },
     {
       "id": "match-041",
