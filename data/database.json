@@ -2,7 +2,7 @@
   "meta": {
     "name": "FIFA World Cup 2026",
     "version": 1,
-    "updated": "2026-06-27",
+    "updated": "2026-06-28",
     "source": "openfootball/worldcup.json",
     "totalMatches": 104,
     "totalTeams": 112
@@ -3104,10 +3104,10 @@
       "venueId": "new-york-new-jersey-east-rutherford",
       "hostCountry": "USA",
       "score": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 2
       },
-      "status": "scheduled"
+      "status": "finished"
     },
     {
       "id": "match-072",
@@ -3125,10 +3125,10 @@
       "venueId": "philadelphia",
       "hostCountry": "USA",
       "score": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 1
       },
-      "status": "scheduled"
+      "status": "finished"
     },
     {
       "id": "match-065",
@@ -3146,10 +3146,10 @@
       "venueId": "miami-miami-gardens",
       "hostCountry": "USA",
       "score": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
-      "status": "scheduled"
+      "status": "finished"
     },
     {
       "id": "match-066",
@@ -3167,10 +3167,10 @@
       "venueId": "atlanta",
       "hostCountry": "USA",
       "score": {
-        "home": null,
-        "away": null
+        "home": 3,
+        "away": 1
       },
-      "status": "scheduled"
+      "status": "finished"
     },
     {
       "id": "match-059",
@@ -3350,9 +3350,9 @@
       "stage": "round-of-32",
       "group": null,
       "homeTeam": "mexico",
-      "awayTeam": "3c-e-f-h-i",
+      "awayTeam": "ecuador",
       "homeTeamName": "Mexico",
-      "awayTeamName": "3C/E/F/H/I",
+      "awayTeamName": "Ecuador",
       "venueId": "mexico-city",
       "hostCountry": "Mexico",
       "score": {
@@ -3370,9 +3370,9 @@
       "round": "Round of 32",
       "stage": "round-of-32",
       "group": null,
-      "homeTeam": "1l",
+      "homeTeam": "england",
       "awayTeam": "3e-h-i-j-k",
-      "homeTeamName": "1L",
+      "homeTeamName": "England",
       "awayTeamName": "3E/H/I/J/K",
       "venueId": "atlanta",
       "hostCountry": "USA",
@@ -3454,10 +3454,10 @@
       "round": "Round of 32",
       "stage": "round-of-32",
       "group": null,
-      "homeTeam": "2k",
-      "awayTeam": "2l",
-      "homeTeamName": "2K",
-      "awayTeamName": "2L",
+      "homeTeam": "portugal",
+      "awayTeam": "croatia",
+      "homeTeamName": "Portugal",
+      "awayTeamName": "Croatia",
       "venueId": "toronto",
       "hostCountry": "Canada",
       "score": {
@@ -3538,9 +3538,9 @@
       "round": "Round of 32",
       "stage": "round-of-32",
       "group": null,
-      "homeTeam": "1k",
+      "homeTeam": "colombia",
       "awayTeam": "3d-e-i-j-l",
-      "homeTeamName": "1K",
+      "homeTeamName": "Colombia",
       "awayTeamName": "3D/E/I/J/L",
       "venueId": "kansas-city",
       "hostCountry": "USA",
