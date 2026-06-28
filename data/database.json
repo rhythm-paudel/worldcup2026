@@ -3188,10 +3188,10 @@
       "venueId": "kansas-city",
       "hostCountry": "USA",
       "score": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 1
       },
-      "status": "scheduled"
+      "status": "live"
     },
     {
       "id": "match-060",
@@ -3209,10 +3209,10 @@
       "venueId": "dallas-arlington",
       "hostCountry": "USA",
       "score": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 2
       },
-      "status": "scheduled"
+      "status": "live"
     },
     {
       "id": "match-073",
