@@ -3188,10 +3188,10 @@
       "venueId": "kansas-city",
       "hostCountry": "USA",
       "score": {
-        "home": 2,
-        "away": 2
+        "home": 3,
+        "away": 3
       },
-      "status": "live"
+      "status": "finished"
     },
     {
       "id": "match-060",
@@ -3212,7 +3212,7 @@
         "home": 1,
         "away": 3
       },
-      "status": "live"
+      "status": "finished"
     },
     {
       "id": "match-073",
