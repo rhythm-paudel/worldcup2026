@@ -3188,7 +3188,7 @@
       "venueId": "kansas-city",
       "hostCountry": "USA",
       "score": {
-        "home": 0,
+        "home": 1,
         "away": 1
       },
       "status": "live"
