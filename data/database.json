@@ -3209,7 +3209,7 @@
       "venueId": "dallas-arlington",
       "hostCountry": "USA",
       "score": {
-        "home": 0,
+        "home": 1,
         "away": 2
       },
       "status": "live"
