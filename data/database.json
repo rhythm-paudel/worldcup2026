@@ -2,7 +2,7 @@
   "meta": {
     "name": "FIFA World Cup 2026",
     "version": 1,
-    "updated": "2026-06-28",
+    "updated": "2026-06-29",
     "source": "openfootball/worldcup.json",
     "totalMatches": 104,
     "totalTeams": 112
@@ -3230,10 +3230,10 @@
       "venueId": "los-angeles-inglewood",
       "hostCountry": "USA",
       "score": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 1
       },
-      "status": "scheduled"
+      "status": "finished"
     },
     {
       "id": "match-076",
@@ -3371,9 +3371,9 @@
       "stage": "round-of-32",
       "group": null,
       "homeTeam": "england",
-      "awayTeam": "3e-h-i-j-k",
+      "awayTeam": "dr-congo",
       "homeTeamName": "England",
-      "awayTeamName": "3E/H/I/J/K",
+      "awayTeamName": "DR Congo",
       "venueId": "atlanta",
       "hostCountry": "USA",
       "score": {
@@ -3392,9 +3392,9 @@
       "stage": "round-of-32",
       "group": null,
       "homeTeam": "belgium",
-      "awayTeam": "3a-e-h-i-j",
+      "awayTeam": "senegal",
       "homeTeamName": "Belgium",
-      "awayTeamName": "3A/E/H/I/J",
+      "awayTeamName": "Senegal",
       "venueId": "seattle",
       "hostCountry": "USA",
       "score": {
@@ -3476,9 +3476,9 @@
       "stage": "round-of-32",
       "group": null,
       "homeTeam": "switzerland",
-      "awayTeam": "3e-f-g-i-j",
+      "awayTeam": "algeria",
       "homeTeamName": "Switzerland",
-      "awayTeamName": "3E/F/G/I/J",
+      "awayTeamName": "Algeria",
       "venueId": "vancouver",
       "hostCountry": "Canada",
       "score": {
@@ -3539,9 +3539,9 @@
       "stage": "round-of-32",
       "group": null,
       "homeTeam": "colombia",
-      "awayTeam": "3d-e-i-j-l",
+      "awayTeam": "ghana",
       "homeTeamName": "Colombia",
-      "awayTeamName": "3D/E/I/J/L",
+      "awayTeamName": "Ghana",
       "venueId": "kansas-city",
       "hostCountry": "USA",
       "score": {
@@ -3559,9 +3559,9 @@
       "round": "Round of 16",
       "stage": "round-of-16",
       "group": null,
-      "homeTeam": "w73",
+      "homeTeam": "canada",
       "awayTeam": "w75",
-      "homeTeamName": "W73",
+      "homeTeamName": "Canada",
       "awayTeamName": "W75",
       "venueId": "houston",
       "hostCountry": "USA",
