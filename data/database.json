@@ -3272,10 +3272,10 @@
       "venueId": "boston-foxborough",
       "hostCountry": "USA",
       "score": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 1
       },
-      "status": "scheduled"
+      "status": "live"
     },
     {
       "id": "match-075",
