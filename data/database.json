@@ -3275,7 +3275,7 @@
         "home": 4,
         "away": 5
       },
-      "status": "live"
+      "status": "finished"
     },
     {
       "id": "match-075",
@@ -3580,9 +3580,9 @@
       "round": "Round of 16",
       "stage": "round-of-16",
       "group": null,
-      "homeTeam": "w74",
+      "homeTeam": "paraguay",
       "awayTeam": "w77",
-      "homeTeamName": "W74",
+      "homeTeamName": "Paraguay",
       "awayTeamName": "W77",
       "venueId": "philadelphia",
       "hostCountry": "USA",
