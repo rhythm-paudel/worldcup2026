@@ -3293,8 +3293,8 @@
       "venueId": "monterrey-guadalupe",
       "hostCountry": "Mexico",
       "score": {
-        "home": 1,
-        "away": 1
+        "home": 3,
+        "away": 4
       },
       "status": "live"
     },
