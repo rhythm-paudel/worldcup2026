@@ -3296,7 +3296,7 @@
         "home": 3,
         "away": 4
       },
-      "status": "live"
+      "status": "finished"
     },
     {
       "id": "match-078",
@@ -3560,9 +3560,9 @@
       "stage": "round-of-16",
       "group": null,
       "homeTeam": "canada",
-      "awayTeam": "w75",
+      "awayTeam": "morocco",
       "homeTeamName": "Canada",
-      "awayTeamName": "W75",
+      "awayTeamName": "Morocco",
       "venueId": "houston",
       "hostCountry": "USA",
       "score": {
