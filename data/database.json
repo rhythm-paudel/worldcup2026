@@ -3314,10 +3314,10 @@
       "venueId": "dallas-arlington",
       "hostCountry": "USA",
       "score": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 2
       },
-      "status": "scheduled"
+      "status": "finished"
     },
     {
       "id": "match-077",
@@ -3335,10 +3335,10 @@
       "venueId": "new-york-new-jersey-east-rutherford",
       "hostCountry": "USA",
       "score": {
-        "home": null,
-        "away": null
+        "home": 3,
+        "away": 0
       },
-      "status": "scheduled"
+      "status": "finished"
     },
     {
       "id": "match-079",
@@ -3581,9 +3581,9 @@
       "stage": "round-of-16",
       "group": null,
       "homeTeam": "paraguay",
-      "awayTeam": "w77",
+      "awayTeam": "france",
       "homeTeamName": "Paraguay",
-      "awayTeamName": "W77",
+      "awayTeamName": "France",
       "venueId": "philadelphia",
       "hostCountry": "USA",
       "score": {
@@ -3602,9 +3602,9 @@
       "stage": "round-of-16",
       "group": null,
       "homeTeam": "brazil",
-      "awayTeam": "w78",
+      "awayTeam": "norway",
       "homeTeamName": "Brazil",
-      "awayTeamName": "W78",
+      "awayTeamName": "Norway",
       "venueId": "new-york-new-jersey-east-rutherford",
       "hostCountry": "USA",
       "score": {
