@@ -3503,10 +3503,10 @@
       "venueId": "dallas-arlington",
       "hostCountry": "USA",
       "score": {
-        "home": null,
-        "away": null
+        "home": 3,
+        "away": 5
       },
-      "status": "scheduled"
+      "status": "finished"
     },
     {
       "id": "match-086",
@@ -3524,10 +3524,10 @@
       "venueId": "miami-miami-gardens",
       "hostCountry": "USA",
       "score": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
-      "status": "scheduled"
+      "status": "live"
     },
     {
       "id": "match-087",
@@ -3686,9 +3686,9 @@
       "stage": "round-of-16",
       "group": null,
       "homeTeam": "w86",
-      "awayTeam": "w88",
+      "awayTeam": "egypt",
       "homeTeamName": "W86",
-      "awayTeamName": "W88",
+      "awayTeamName": "Egypt",
       "venueId": "atlanta",
       "hostCountry": "USA",
       "score": {
