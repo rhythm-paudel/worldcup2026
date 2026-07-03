@@ -2,7 +2,7 @@
   "meta": {
     "name": "FIFA World Cup 2026",
     "version": 1,
-    "updated": "2026-07-01",
+    "updated": "2026-07-03",
     "source": "openfootball/worldcup.json",
     "totalMatches": 104,
     "totalTeams": 112
@@ -3377,10 +3377,10 @@
       "venueId": "atlanta",
       "hostCountry": "USA",
       "score": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 1
       },
-      "status": "scheduled"
+      "status": "finished"
     },
     {
       "id": "match-082",
@@ -3398,10 +3398,10 @@
       "venueId": "seattle",
       "hostCountry": "USA",
       "score": {
-        "home": null,
-        "away": null
+        "home": 3,
+        "away": 2
       },
-      "status": "scheduled"
+      "status": "finished"
     },
     {
       "id": "match-081",
@@ -3419,10 +3419,10 @@
       "venueId": "san-francisco-bay-area-santa-clara",
       "hostCountry": "USA",
       "score": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 0
       },
-      "status": "scheduled"
+      "status": "finished"
     },
     {
       "id": "match-084",
@@ -3440,10 +3440,10 @@
       "venueId": "los-angeles-inglewood",
       "hostCountry": "USA",
       "score": {
-        "home": null,
-        "away": null
+        "home": 3,
+        "away": 0
       },
-      "status": "scheduled"
+      "status": "finished"
     },
     {
       "id": "match-083",
@@ -3461,10 +3461,10 @@
       "venueId": "toronto",
       "hostCountry": "Canada",
       "score": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 1
       },
-      "status": "scheduled"
+      "status": "finished"
     },
     {
       "id": "match-085",
@@ -3482,10 +3482,10 @@
       "venueId": "vancouver",
       "hostCountry": "Canada",
       "score": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 0
       },
-      "status": "scheduled"
+      "status": "finished"
     },
     {
       "id": "match-088",
@@ -3623,9 +3623,9 @@
       "stage": "round-of-16",
       "group": null,
       "homeTeam": "mexico",
-      "awayTeam": "w80",
+      "awayTeam": "england",
       "homeTeamName": "Mexico",
-      "awayTeamName": "W80",
+      "awayTeamName": "England",
       "venueId": "mexico-city",
       "hostCountry": "Mexico",
       "score": {
@@ -3643,10 +3643,10 @@
       "round": "Round of 16",
       "stage": "round-of-16",
       "group": null,
-      "homeTeam": "w83",
-      "awayTeam": "w84",
-      "homeTeamName": "W83",
-      "awayTeamName": "W84",
+      "homeTeam": "portugal",
+      "awayTeam": "spain",
+      "homeTeamName": "Portugal",
+      "awayTeamName": "Spain",
       "venueId": "dallas-arlington",
       "hostCountry": "USA",
       "score": {
@@ -3664,10 +3664,10 @@
       "round": "Round of 16",
       "stage": "round-of-16",
       "group": null,
-      "homeTeam": "w81",
-      "awayTeam": "w82",
-      "homeTeamName": "W81",
-      "awayTeamName": "W82",
+      "homeTeam": "usa",
+      "awayTeam": "belgium",
+      "homeTeamName": "USA",
+      "awayTeamName": "Belgium",
       "venueId": "seattle",
       "hostCountry": "USA",
       "score": {
@@ -3706,9 +3706,9 @@
       "round": "Round of 16",
       "stage": "round-of-16",
       "group": null,
-      "homeTeam": "w85",
+      "homeTeam": "switzerland",
       "awayTeam": "w87",
-      "homeTeamName": "W85",
+      "homeTeamName": "Switzerland",
       "awayTeamName": "W87",
       "venueId": "vancouver",
       "hostCountry": "Canada",
