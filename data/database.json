@@ -2,7 +2,7 @@
   "meta": {
     "name": "FIFA World Cup 2026",
     "version": 1,
-    "updated": "2026-07-03",
+    "updated": "2026-07-05",
     "source": "openfootball/worldcup.json",
     "totalMatches": 104,
     "totalTeams": 112
@@ -3524,10 +3524,10 @@
       "venueId": "miami-miami-gardens",
       "hostCountry": "USA",
       "score": {
-        "home": 1,
-        "away": 0
+        "home": 3,
+        "away": 2
       },
-      "status": "live"
+      "status": "finished"
     },
     {
       "id": "match-087",
@@ -3545,10 +3545,10 @@
       "venueId": "kansas-city",
       "hostCountry": "USA",
       "score": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
       },
-      "status": "scheduled"
+      "status": "finished"
     },
     {
       "id": "match-090",
@@ -3566,10 +3566,10 @@
       "venueId": "houston",
       "hostCountry": "USA",
       "score": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 3
       },
-      "status": "scheduled"
+      "status": "finished"
     },
     {
       "id": "match-089",
@@ -3587,10 +3587,10 @@
       "venueId": "philadelphia",
       "hostCountry": "USA",
       "score": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 1
       },
-      "status": "scheduled"
+      "status": "finished"
     },
     {
       "id": "match-091",
@@ -3685,9 +3685,9 @@
       "round": "Round of 16",
       "stage": "round-of-16",
       "group": null,
-      "homeTeam": "w86",
+      "homeTeam": "argentina",
       "awayTeam": "egypt",
-      "homeTeamName": "W86",
+      "homeTeamName": "Argentina",
       "awayTeamName": "Egypt",
       "venueId": "atlanta",
       "hostCountry": "USA",
@@ -3707,9 +3707,9 @@
       "stage": "round-of-16",
       "group": null,
       "homeTeam": "switzerland",
-      "awayTeam": "w87",
+      "awayTeam": "colombia",
       "homeTeamName": "Switzerland",
-      "awayTeamName": "W87",
+      "awayTeamName": "Colombia",
       "venueId": "vancouver",
       "hostCountry": "Canada",
       "score": {
@@ -3727,10 +3727,10 @@
       "round": "Quarter-final",
       "stage": "quarter-final",
       "group": null,
-      "homeTeam": "w89",
-      "awayTeam": "w90",
-      "homeTeamName": "W89",
-      "awayTeamName": "W90",
+      "homeTeam": "france",
+      "awayTeam": "morocco",
+      "homeTeamName": "France",
+      "awayTeamName": "Morocco",
       "venueId": "boston-foxborough",
       "hostCountry": "USA",
       "score": {
