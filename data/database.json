@@ -2,7 +2,7 @@
   "meta": {
     "name": "FIFA World Cup 2026",
     "version": 1,
-    "updated": "2026-07-05",
+    "updated": "2026-07-06",
     "source": "openfootball/worldcup.json",
     "totalMatches": 104,
     "totalTeams": 112
@@ -3608,10 +3608,10 @@
       "venueId": "new-york-new-jersey-east-rutherford",
       "hostCountry": "USA",
       "score": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 2
       },
-      "status": "scheduled"
+      "status": "finished"
     },
     {
       "id": "match-092",
@@ -3629,10 +3629,10 @@
       "venueId": "mexico-city",
       "hostCountry": "Mexico",
       "score": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 3
       },
-      "status": "scheduled"
+      "status": "finished"
     },
     {
       "id": "match-093",
@@ -3650,10 +3650,10 @@
       "venueId": "dallas-arlington",
       "hostCountry": "USA",
       "score": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
-      "status": "scheduled"
+      "status": "live"
     },
     {
       "id": "match-094",
@@ -3769,10 +3769,10 @@
       "round": "Quarter-final",
       "stage": "quarter-final",
       "group": null,
-      "homeTeam": "w91",
-      "awayTeam": "w92",
-      "homeTeamName": "W91",
-      "awayTeamName": "W92",
+      "homeTeam": "norway",
+      "awayTeam": "england",
+      "homeTeamName": "Norway",
+      "awayTeamName": "England",
       "venueId": "miami-miami-gardens",
       "hostCountry": "USA",
       "score": {
