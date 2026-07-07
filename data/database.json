@@ -3692,10 +3692,10 @@
       "venueId": "atlanta",
       "hostCountry": "USA",
       "score": {
-        "home": null,
-        "away": null
+        "home": 3,
+        "away": 2
       },
-      "status": "scheduled"
+      "status": "finished"
     },
     {
       "id": "match-096",
@@ -3713,10 +3713,10 @@
       "venueId": "vancouver",
       "hostCountry": "Canada",
       "score": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
-      "status": "scheduled"
+      "status": "live"
     },
     {
       "id": "match-097",
@@ -3790,9 +3790,9 @@
       "round": "Quarter-final",
       "stage": "quarter-final",
       "group": null,
-      "homeTeam": "w95",
+      "homeTeam": "argentina",
       "awayTeam": "w96",
-      "homeTeamName": "W95",
+      "homeTeamName": "Argentina",
       "awayTeamName": "W96",
       "venueId": "kansas-city",
       "hostCountry": "USA",
