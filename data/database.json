@@ -2,7 +2,7 @@
   "meta": {
     "name": "FIFA World Cup 2026",
     "version": 1,
-    "updated": "2026-07-06",
+    "updated": "2026-07-07",
     "source": "openfootball/worldcup.json",
     "totalMatches": 104,
     "totalTeams": 112
@@ -3651,9 +3651,9 @@
       "hostCountry": "USA",
       "score": {
         "home": 0,
-        "away": 0
+        "away": 1
       },
-      "status": "live"
+      "status": "finished"
     },
     {
       "id": "match-094",
@@ -3671,10 +3671,10 @@
       "venueId": "seattle",
       "hostCountry": "USA",
       "score": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 1
       },
-      "status": "scheduled"
+      "status": "live"
     },
     {
       "id": "match-095",
@@ -3748,9 +3748,9 @@
       "round": "Quarter-final",
       "stage": "quarter-final",
       "group": null,
-      "homeTeam": "w93",
+      "homeTeam": "spain",
       "awayTeam": "w94",
-      "homeTeamName": "W93",
+      "homeTeamName": "Spain",
       "awayTeamName": "W94",
       "venueId": "los-angeles-inglewood",
       "hostCountry": "USA",
