@@ -3671,10 +3671,10 @@
       "venueId": "seattle",
       "hostCountry": "USA",
       "score": {
-        "home": 0,
-        "away": 1
+        "home": 1,
+        "away": 4
       },
-      "status": "live"
+      "status": "finished"
     },
     {
       "id": "match-095",
@@ -3749,9 +3749,9 @@
       "stage": "quarter-final",
       "group": null,
       "homeTeam": "spain",
-      "awayTeam": "w94",
+      "awayTeam": "belgium",
       "homeTeamName": "Spain",
-      "awayTeamName": "W94",
+      "awayTeamName": "Belgium",
       "venueId": "los-angeles-inglewood",
       "hostCountry": "USA",
       "score": {
