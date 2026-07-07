@@ -3713,10 +3713,10 @@
       "venueId": "vancouver",
       "hostCountry": "Canada",
       "score": {
-        "home": 0,
-        "away": 0
+        "home": 4,
+        "away": 3
       },
-      "status": "live"
+      "status": "finished"
     },
     {
       "id": "match-097",
@@ -3791,9 +3791,9 @@
       "stage": "quarter-final",
       "group": null,
       "homeTeam": "argentina",
-      "awayTeam": "w96",
+      "awayTeam": "switzerland",
       "homeTeamName": "Argentina",
-      "awayTeamName": "W96",
+      "awayTeamName": "Switzerland",
       "venueId": "kansas-city",
       "hostCountry": "USA",
       "score": {
