@@ -2,7 +2,7 @@
   "meta": {
     "name": "FIFA World Cup 2026",
     "version": 1,
-    "updated": "2026-07-07",
+    "updated": "2026-07-10",
     "source": "openfootball/worldcup.json",
     "totalMatches": 104,
     "totalTeams": 112
@@ -3734,10 +3734,10 @@
       "venueId": "boston-foxborough",
       "hostCountry": "USA",
       "score": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 0
       },
-      "status": "scheduled"
+      "status": "finished"
     },
     {
       "id": "match-098",
@@ -3811,9 +3811,9 @@
       "round": "Semi-final",
       "stage": "semi-final",
       "group": null,
-      "homeTeam": "w97",
+      "homeTeam": "france",
       "awayTeam": "w98",
-      "homeTeamName": "W97",
+      "homeTeamName": "France",
       "awayTeamName": "W98",
       "venueId": "dallas-arlington",
       "hostCountry": "USA",
