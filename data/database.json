@@ -2,7 +2,7 @@
   "meta": {
     "name": "FIFA World Cup 2026",
     "version": 1,
-    "updated": "2026-07-10",
+    "updated": "2026-07-13",
     "source": "openfootball/worldcup.json",
     "totalMatches": 104,
     "totalTeams": 112
@@ -3755,10 +3755,10 @@
       "venueId": "los-angeles-inglewood",
       "hostCountry": "USA",
       "score": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 1
       },
-      "status": "scheduled"
+      "status": "finished"
     },
     {
       "id": "match-099",
@@ -3776,10 +3776,10 @@
       "venueId": "miami-miami-gardens",
       "hostCountry": "USA",
       "score": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 2
       },
-      "status": "scheduled"
+      "status": "finished"
     },
     {
       "id": "match-100",
@@ -3797,10 +3797,10 @@
       "venueId": "kansas-city",
       "hostCountry": "USA",
       "score": {
-        "home": null,
-        "away": null
+        "home": 3,
+        "away": 1
       },
-      "status": "scheduled"
+      "status": "finished"
     },
     {
       "id": "match-101",
@@ -3812,9 +3812,9 @@
       "stage": "semi-final",
       "group": null,
       "homeTeam": "france",
-      "awayTeam": "w98",
+      "awayTeam": "spain",
       "homeTeamName": "France",
-      "awayTeamName": "W98",
+      "awayTeamName": "Spain",
       "venueId": "dallas-arlington",
       "hostCountry": "USA",
       "score": {
@@ -3832,10 +3832,10 @@
       "round": "Semi-final",
       "stage": "semi-final",
       "group": null,
-      "homeTeam": "w99",
-      "awayTeam": "w100",
-      "homeTeamName": "W99",
-      "awayTeamName": "W100",
+      "homeTeam": "england",
+      "awayTeam": "argentina",
+      "homeTeamName": "England",
+      "awayTeamName": "Argentina",
       "venueId": "atlanta",
       "hostCountry": "USA",
       "score": {
