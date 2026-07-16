@@ -2,7 +2,7 @@
   "meta": {
     "name": "FIFA World Cup 2026",
     "version": 1,
-    "updated": "2026-07-14",
+    "updated": "2026-07-16",
     "source": "openfootball/worldcup.json",
     "totalMatches": 104,
     "totalTeams": 112
@@ -3839,10 +3839,10 @@
       "venueId": "atlanta",
       "hostCountry": "USA",
       "score": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 2
       },
-      "status": "scheduled"
+      "status": "finished"
     },
     {
       "id": "match-103",
@@ -3854,9 +3854,9 @@
       "stage": "third-place",
       "group": null,
       "homeTeam": "france",
-      "awayTeam": "l102",
+      "awayTeam": "england",
       "homeTeamName": "France",
-      "awayTeamName": "L102",
+      "awayTeamName": "England",
       "venueId": "miami-miami-gardens",
       "hostCountry": "USA",
       "score": {
@@ -3875,9 +3875,9 @@
       "stage": "final",
       "group": null,
       "homeTeam": "spain",
-      "awayTeam": "w102",
+      "awayTeam": "argentina",
       "homeTeamName": "Spain",
-      "awayTeamName": "W102",
+      "awayTeamName": "Argentina",
       "venueId": "new-york-new-jersey-east-rutherford",
       "hostCountry": "USA",
       "score": {
