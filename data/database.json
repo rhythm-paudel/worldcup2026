@@ -2,7 +2,7 @@
   "meta": {
     "name": "FIFA World Cup 2026",
     "version": 1,
-    "updated": "2026-07-16",
+    "updated": "2026-07-20",
     "source": "openfootball/worldcup.json",
     "totalMatches": 104,
     "totalTeams": 112
@@ -3860,10 +3860,10 @@
       "venueId": "miami-miami-gardens",
       "hostCountry": "USA",
       "score": {
-        "home": null,
-        "away": null
+        "home": 4,
+        "away": 6
       },
-      "status": "scheduled"
+      "status": "finished"
     },
     {
       "id": "match-104",
@@ -3881,10 +3881,10 @@
       "venueId": "new-york-new-jersey-east-rutherford",
       "hostCountry": "USA",
       "score": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
       },
-      "status": "scheduled"
+      "status": "finished"
     }
   ]
 }
